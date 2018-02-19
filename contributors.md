@@ -1,5 +1,6 @@
 Ben Rabeler
-Patrick Fischer 
+Anastasiia Semionova
+Patrick Fischer
 Nicole Michalak
 Kilian Diener
 Sherif Salem
