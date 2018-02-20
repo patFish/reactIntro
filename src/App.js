@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { CardStack, Card } from 'react-cardstack';
 
 class App extends Component {
   render() {
@@ -11,7 +12,18 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+            <CardStack className="cards">
+
+                <Card background='#2980B9'>
+                    <h1>Daily Scrum</h1>
+                </Card>
+
+                <Card background='#27AE60'>
+                    <h1>Increment</h1>
+                </Card>
+
+
+            </CardStack>
         </p>
       </div>
     );
