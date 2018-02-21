@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import scrumFramework from './scrumFramework.png';
 import './App.css';
 import { CardStack, Card } from 'react-cardstack';
 
@@ -8,9 +8,14 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+
         </div>
+          <div class="topnav">
+              <a class="active" href="#home">Home/</a>
+              <a href="#profile">Profile/</a>
+              <a href="#Topics">Topics/</a>
+              <a href="#Help">Help</a>
+          </div>
         <p className="App-intro">
             <CardStack className="cards">
 
