@@ -21,18 +21,6 @@
   align-items: center;
 }
 
-img {
-  height: 25%;
-  width: 25%;
-}
-
-.cards {
-    height: 200px;
-width: 400px ;
-background: #f8f8f8;
-hoverOffset: 25;
-}
-
 /* Add a black background color to the top navigation */
 .topnav a{
   background-color: white;
@@ -60,4 +48,8 @@ hoverOffset: 25;
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+#pictures img {
+  height: 50vh;
 }
