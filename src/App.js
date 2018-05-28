@@ -10,9 +10,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <a href="#scrum-div">To Scrum</a>
         
         <h1>Product Owner</h1>
         <img src={require("./img/productOwner.jpeg")}/>
@@ -39,7 +37,7 @@ class App extends Component {
 
         <div id="scrum-div">
           <h1>Sprint review</h1>
-          <img src={require("./img/SprintReview_new.jpg")}/>
+          <img src={require("./img/SprintReview.jpg ")}/>
           <h1>Sprint Retro</h1>
           <img src={require("./img/principle12.jpeg")}/>
           <h1>Sprint Backlog</h1>
