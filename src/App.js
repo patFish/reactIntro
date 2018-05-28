@@ -39,7 +39,7 @@ class App extends Component {
 
         <div id="scrum-div">
           <h1>Sprint review</h1>
-          <img src={require("./img/principle12.jpeg")}/>
+          <img src={require("./img/SprintReview_new.jpg")}/>
           <h1>Sprint Retro</h1>
           <img src={require("./img/principle12.jpeg")}/>
           <h1>Sprint Backlog</h1>
