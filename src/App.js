@@ -37,6 +37,16 @@ class App extends Component {
         <h1>12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.</h1>
         <img src={require("./img/principle12.jpeg")}/>
 
+        <div id="scrum-div">
+          <h1>Sprint review</h1>
+          <img src={require("./img/SprintReview_new.jpg")}/>
+          <h1>Sprint Retro</h1>
+          <img src={require("./img/principle12.jpeg")}/>
+          <h1>Sprint Backlog</h1>
+          <img src={require("./img/Sprint_Backlog.jpg")}/>
+          <h1>Increment</h1>
+          <img src={require("./img/SCRUM_Artifact_Increment.jpeg")}/>
+        </div>
       </div>
     );
   }
