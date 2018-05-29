@@ -16,10 +16,16 @@ class App extends Component {
           <div id="Agile-div">
             <h1>Product Owner</h1>
             <img src={require("./img/productOwner.jpeg")}/>
+            <h1>Individuals over processes and tools</h1>
+            <img src={require("./img/Values2.jpeg")}/>
+            <h1>Working software over comprehensive documentation</h1>
+            <img src={require("./img/Values1.jpeg")}/>
             <h1>Customer Collaboration over contract negotiation</h1>
             <img src={require("./img/value3.jpeg")}/>
             <h1>Responding to change over following a plan</h1>
             <img src={require("./img/value4.jpeg")}/>
+            <h1>Principles of Agile 2, 3, 6, 11</h1>
+            <img className="rotate_minus_90" src={require("./img/Principles.jpeg")}/>
             <h1>1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.</h1>
             <img src={require("./img/principle1.jpeg")}/>
             <h1>4. Business people and developers must work together daily throughout the project.</h1>
@@ -40,10 +46,18 @@ class App extends Component {
 
           <h1>Sprint 2</h1>
           <div id="scrum-div" className="sprint">
+            <h1>Sprint</h1>
+            <img src={require("./img/Sprint.png")}/>
+            <h1>Daily Scrum</h1>
+            <img src={require("./img/DailyScrum.png")}/>
+            <h1>Sprint Planning</h1>
+            <img src={require("./img/sprint-planning-large.jpg")}/>
             <h1>Sprint review</h1>
             <img src={require("./img/SprintReview.jpeg")}/>
             <h1>Sprint Retro</h1>
             <img src={require("./img/Sprint Retrospective.jpeg")}/>
+            <h1>Product Backlog</h1>
+            <img src={require("./img/PB.jpg")}/>
             <h1>Sprint Backlog</h1>
             <img src={require("./img/Sprint_Backlog.jpg")}/>
             <h1>Increment</h1>
