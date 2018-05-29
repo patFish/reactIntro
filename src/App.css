@@ -25,10 +25,14 @@
 
 .rotate_plus_90 {
   transform: rotate(90deg);
+  height: 800px;
+  width: 600px;
 }
 
 .rotate_minus_90 {
   transform: rotate(-90deg);
+  height: 800px;
+  width: 600px;
 }
 
 .rotate_180 {
@@ -41,6 +45,6 @@
 }
 
 img {
-  width: 400px;
-  height: auto;
+  width: 800px;
+  height: 600px;
 }
