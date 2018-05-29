@@ -66,12 +66,21 @@ class App extends Component {
 
           <h1>Sprint 3</h1>
           <div id="sprintbacklog-div" className="sprint">
+            <h1>Product Backlog Item</h1>
+            <img src={require("./img/Day2/Sprint3/PBI.jpeg")}/>
+            <h1>Product Backlog Item</h1>
+            <img src={require("./img/Day2/Sprint3/PBI.jpeg")}/>
+            <h1>Quality</h1>
+            <img src={require("./img/Quality.jpg")}/>
+            <img src={require("./img/Day2/Sprint3/Quality.jpg")}/>
             <h1>Quality</h1>
             <img src={require("./img/Quality.jpg")}/>
             <h1>Bugs</h1>
             <img src={require("./img/Bugs.jpeg")}/>
             <h1>File handling</h1>
             <img src={require("./img/FileHandling.jpeg")}/>
+            <h1>Merging vs Branching</h1>
+            <img src={require("./img/Day2/Sprint3/mergingvsbranching.jpg")}/>
             <h1>Scrum Task</h1>
             <img src={require("./img/Scrum-Task.jpg")}/>
           </div>
@@ -85,6 +94,13 @@ class App extends Component {
             <img src={require("./img/StoryBoard.jpeg")}/>
             <h1>Product Backlog</h1>
             <img src={require("./img/Product-Backlog-Refinement-Evolution.jpg")}/>
+            <h1>Wall Estimation</h1>
+            <img src={require("./img/Day2/Sprint3/WallEstimation.jpg")}/>
+            <h1>Estimating</h1>
+            <img src={require("./img/Day2/Sprint3/Estimating.jpg")}/>
+            <h1>Branching</h1>
+            <img src={require("./img/Day2/Sprint3/Agile.png")}/>
+
           </div>
         </div>
       </div>
