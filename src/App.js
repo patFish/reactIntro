@@ -104,8 +104,14 @@ class App extends Component {
 
           <h1>Sprint 5</h1>
           <div id="merging-div" className="sprint">
-            <h1>Topic</h1>
-            <img src={require("./img/Sprint5/placeholder.png")}/>
+            <h1>Dev Test and Practices</h1>
+            <img className="rotate_minus_90" src={require("./img/Sprint5/DevTestandPractices.jpg")}/>
+            <h1>Ideal Days</h1>
+            <img src={require("./img/Sprint5/IdealDays.png")}/>
+            <h1>Planning Poker</h1>
+            <img src={require("./img/Sprint5/PlanningPoker.jpg")}/>
+            <h1>Testing Compared</h1>
+            <img src={require("./img/Sprint5/TestingCompared.jpeg")}/>
           </div>
 
         </div>
