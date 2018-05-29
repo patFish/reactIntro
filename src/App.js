@@ -57,9 +57,9 @@ class App extends Component {
             <h1>Bugs</h1>
             <img src={require("./img/Bugs.jpeg")}/>
             <h1>File handling</h1>
-            <img src={require("./img/Bugs.jpeg")}/>
-            <h1>tasks</h1>
-            <img src={require("./img/Bugs.jpeg")}/>
+            <img src={require("./img/FileHandling.jpeg")}/>
+            <h1>Scrum Task</h1>
+            <img src={require("./img/Scrum-Task.jpg")}/>
           </div>
         </div>
       </div>
