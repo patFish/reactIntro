@@ -100,8 +100,14 @@ class App extends Component {
             <img src={require("./img/Day2/Sprint3/Estimating.jpg")}/>
             <h1>Branching</h1>
             <img src={require("./img/Day2/Sprint3/Agile.png")}/>
-
           </div>
+
+          <h1>Sprint 5</h1>
+          <div id="merging-div" className="sprint">
+            <h1>Topic</h1>
+            <img src={require("./img/Sprint5/placeholder.png")}/>
+          </div>
+
         </div>
       </div>
     );
