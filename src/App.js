@@ -45,6 +45,7 @@ class App extends Component {
             <img src={require("./img/principle12.jpeg")}/>
           </div>
           </div>
+          </div>
 
           <div id="sprint2">
           <h1>Sprint 2</h1>
@@ -130,7 +131,7 @@ class App extends Component {
           </div>
 
         </div>
-      </div>
+      
     );
   }
 }
