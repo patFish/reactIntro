@@ -25,6 +25,7 @@ class App extends Component {
         this.onButtonClick1 = this.onButtonClick1.bind(this);
         this.onButtonClick2 = this.onButtonClick2.bind(this);
         this.onIncreaseImageWidth = this.onIncreaseImageWidth.bind(this);
+        this.onDecreaseImageWidth = this.onDecreaseImageWidth.bind(this);
     }
 
     onButtonClick1() {
@@ -53,13 +54,21 @@ class App extends Component {
         });
     }
 
+    onDecreaseImageWidth(){
+        const currentImageWidth = this.state.imageWidth;
+        this.setState({
+            imageWidth: (currentImageWidth-10)%1024,
+        });
+    }
+
 
     render() {
         return (
             <div className="App">
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
-                    <input type="button" className="btn btn-lg float-right" onClick={this.onIncreaseImageWidth} value="Increase Image Dimensions"/>
+                    <input type="button" className="btn btn-primary float-right" onClick={this.onIncreaseImageWidth} value="Zoom In"/>
+                    <input type="button" className="btn btn-success float-right" onClick={this.onDecreaseImageWidth} value="Zoom Out"/>
                     <h2>Welcome to React </h2>
                     <div className="container">
                         <div className="row">
