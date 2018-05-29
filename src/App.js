@@ -17,8 +17,8 @@ class App extends Component {
             itemsButton2: ["../images/Sprint.png", "../images/DailyScrum.png", "../images/sprint-planning-large.jpg", "../images/PB.jpg"],
             headingButton2: ["Sprint", "Daily Scrum", "Sprint Planing", "Product Backlog"],
 
-            itemsButton3: ["../images/Day2/Sprint3/mergingvsbranching.jpg"],
-            headingButton3: ["Git Merging Vs Banching"],
+            itemsButton3: ["../images/Day2/Sprint3/mergingvsbranching.jpg", "../images/Day2/Sprint3/PBI.jpeg", "../images/Day2/Sprint3/Quality.jpg"],
+            headingButton3: ["Git Merging Vs Banching", "Product Backlog Item", "Quality"],
 
             button1counter: 0,
             button2counter: 0,
@@ -71,9 +71,13 @@ class App extends Component {
     }
 
     onIncreaseImageWidth(){
-        const currentImageWidth = this.state.imageWidth;
+        let currentImageWidth = this.state.imageWidth;
+        if(currentImageWidth<900)
+            currentImageWidth = 900;
+        else
+            currentImageWidth = (currentImageWidth+10)%1024;
         this.setState({
-            imageWidth: (currentImageWidth+10)%1024,
+            imageWidth: (currentImageWidth),
         });
     }
 
