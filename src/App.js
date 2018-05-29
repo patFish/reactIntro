@@ -107,9 +107,26 @@ class App extends Component {
             <img src={require("./img/Day2/Sprint3/Estimating.jpg")}/>
             <h1>Branching</h1>
             <img src={require("./img/Day2/Sprint3/Agile.png")}/>
+          </div>
+
+          <h1>Sprint 5</h1>
+          <div id="merging-div" className="sprint">
+            <h1>Dev Test and Practices</h1>
+            <img className="rotate_minus_90" src={require("./img/Sprint5/DevTestandPractices.jpg")}/>
+            <h1>Ideal Days</h1>
+            <img src={require("./img/Sprint5/IdealDays.png")}/>
+            <h1>Planning Poker</h1>
+            <img src={require("./img/Sprint5/PlanningPoker.jpg")}/>
+            <h1>Testing Compared</h1>
+            <img src={require("./img/Sprint5/TestingCompared.jpeg")}/>
+            <h1>Unit Test</h1>
+            <img src={require("./img/Sprint5/UnitTest.png")}/>
+            <h1>TDD and ATDD</h1>
+            <img src={require("./img/Sprint5/tdd_atdd.jpg")}/>
+          </div>
 
           </div>
-          </div>
+
         </div>
       </div>
     );
