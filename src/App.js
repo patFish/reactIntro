@@ -123,6 +123,8 @@ class App extends Component {
             <img src={require("./img/Sprint5/UnitTest.png")}/>
             <h1>TDD and ATDD</h1>
             <img src={require("./img/Sprint5/tdd_atdd.jpg")}/>
+            <h1>Code_Coverage</h1>
+            <img src={require("./img/Sprint5/Code_Coverage.jpg")}/>
           </div>
 
           </div>
