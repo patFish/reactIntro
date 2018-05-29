@@ -20,9 +20,13 @@ class App extends Component {
             itemsButton3: ["../images/Day2/Sprint3/mergingvsbranching.jpg", "../images/Day2/Sprint3/PBI.jpeg", "../images/Day2/Sprint3/Quality.jpg"],
             headingButton3: ["Git Merging Vs Banching", "Product Backlog Item", "Quality"],
 
+            itemsButton4: ["../images/Day2/Sprint3/Agile.png", "../images/Day2/Sprint3/Estimating.jpg", "../images/Day2/Sprint3/WallEstimation.jpg"],
+            headingButton4: ["SVC: Branching Strategy the Agile way", "Estimating", "Wall Estimation",],
+
             button1counter: 0,
             button2counter: 0,
             button3counter: 0,
+            button4counter: 0,
 
 
             imageWidth: 900,
@@ -30,11 +34,13 @@ class App extends Component {
             isHiddenitem1: true,
             isHiddenitem2: true,
             isHiddenitem3: true,
+            isHiddenitem4: true,
 
         };
         this.onButtonClick1 = this.onButtonClick1.bind(this);
         this.onButtonClick2 = this.onButtonClick2.bind(this);
         this.onButtonClick3 = this.onButtonClick3.bind(this);
+        this.onButtonClick4 = this.onButtonClick4.bind(this);
         this.onIncreaseImageWidth = this.onIncreaseImageWidth.bind(this);
         this.onDecreaseImageWidth = this.onDecreaseImageWidth.bind(this);
     }
@@ -46,6 +52,7 @@ class App extends Component {
             isHiddenitem1: false,
             isHiddenitem2: true,
             isHiddenitem3:true,
+            isHiddenitem4:true,
         });
 
     }
@@ -57,6 +64,7 @@ class App extends Component {
             isHiddenitem1: true,
             isHiddenitem2: false,
             isHiddenitem3:true,
+            isHiddenitem4:true,
         });
     }
 
@@ -67,6 +75,18 @@ class App extends Component {
             isHiddenitem1: true,
             isHiddenitem2: true,
             isHiddenitem3:false,
+            isHiddenitem4:true,
+        });
+    }
+
+    onButtonClick4() {
+        const button4counterstate = this.state.button4counter;
+        this.setState({
+            button4counter: (button4counterstate + 1) % this.state.headingButton4.length,
+            isHiddenitem1: true,
+            isHiddenitem2: true,
+            isHiddenitem3:true,
+            isHiddenitem4:false,
         });
     }
 
@@ -108,6 +128,9 @@ class App extends Component {
                             <div className="col-2">
                                 <input type="button" className="btn btn-primary" onClick={this.onButtonClick3} value="Sprint 3"/>
                             </div>
+                            <div className="col-2">
+                                <input type="button" className="btn btn-danger" onClick={this.onButtonClick4} value="Sprint 4"/>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -131,6 +154,12 @@ class App extends Component {
                             {/*<input type="button" className="btn btn-primary" onClick={this.onButtonClick2} value="Sprint 2"/>*/}
                             <h3><br/><br/><br/><br/>{this.state.headingButton3[this.state.button3counter]}</h3>
                             <img width={this.state.imageWidth} src={this.state.itemsButton3[this.state.button3counter]} alt="Values 1 and 2"/>
+                        </div> }
+                        {!this.state.isHiddenitem4 &&
+                        <div>
+                            {/*<input type="button" className="btn btn-primary" onClick={this.onButtonClick2} value="Sprint 2"/>*/}
+                            <h3><br/><br/><br/><br/>{this.state.headingButton4[this.state.button4counter]}</h3>
+                            <img width={this.state.imageWidth} src={this.state.itemsButton4[this.state.button4counter]} alt="Values 1 and 2"/>
                         </div> }
                     </div>
                 </div>
