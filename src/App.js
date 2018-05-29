@@ -12,18 +12,29 @@ class App extends Component {
             headingButton1: ["Individuals and interactions over processes and tools",
                 "Working Software over comprehensive documentation",
                 "Principle 2, 3, 6, 11"],
-            isHiddenitem1: true,
+
 
             itemsButton2: ["../images/Sprint.png", "../images/DailyScrum.png", "../images/sprint-planning-large.jpg", "../images/PB.jpg"],
             headingButton2: ["Sprint", "Daily Scrum", "Sprint Planing", "Product Backlog"],
 
+            itemsButton3: ["../images/Day2/Sprint3/mergingvsbranching.jpg"],
+            headingButton3: ["Git Merging Vs Banching"],
+
             button1counter: 0,
             button2counter: 0,
+            button3counter: 0,
+
+
             imageWidth: 900,
+
+            isHiddenitem1: true,
             isHiddenitem2: true,
+            isHiddenitem3: true,
+
         };
         this.onButtonClick1 = this.onButtonClick1.bind(this);
         this.onButtonClick2 = this.onButtonClick2.bind(this);
+        this.onButtonClick3 = this.onButtonClick3.bind(this);
         this.onIncreaseImageWidth = this.onIncreaseImageWidth.bind(this);
         this.onDecreaseImageWidth = this.onDecreaseImageWidth.bind(this);
     }
@@ -34,6 +45,7 @@ class App extends Component {
             button1counter: (button1counterstate + 1) % this.state.headingButton1.length,
             isHiddenitem1: false,
             isHiddenitem2: true,
+            isHiddenitem3:true,
         });
 
     }
@@ -44,6 +56,17 @@ class App extends Component {
             button2counter: (button2counterstate + 1) % this.state.headingButton2.length,
             isHiddenitem1: true,
             isHiddenitem2: false,
+            isHiddenitem3:true,
+        });
+    }
+
+    onButtonClick3() {
+        const button3counterstate = this.state.button3counter;
+        this.setState({
+            button3counter: (button3counterstate + 1) % this.state.headingButton3.length,
+            isHiddenitem1: true,
+            isHiddenitem2: true,
+            isHiddenitem3:false,
         });
     }
 
@@ -78,6 +101,9 @@ class App extends Component {
                             <div className="col-2">
                                 <input type="button" className="btn btn-success" onClick={this.onButtonClick2} value="Sprint 2"/>
                             </div>
+                            <div className="col-2">
+                                <input type="button" className="btn btn-primary" onClick={this.onButtonClick3} value="Sprint 3"/>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -95,6 +121,12 @@ class App extends Component {
                             {/*<input type="button" className="btn btn-primary" onClick={this.onButtonClick2} value="Sprint 2"/>*/}
                             <h3><br/><br/><br/><br/>{this.state.headingButton2[this.state.button2counter]}</h3>
                             <img width={this.state.imageWidth} src={this.state.itemsButton2[this.state.button2counter]} alt="Values 1 and 2"/>
+                        </div> }
+                        {!this.state.isHiddenitem3 &&
+                        <div>
+                            {/*<input type="button" className="btn btn-primary" onClick={this.onButtonClick2} value="Sprint 2"/>*/}
+                            <h3><br/><br/><br/><br/>{this.state.headingButton3[this.state.button3counter]}</h3>
+                            <img width={this.state.imageWidth} src={this.state.itemsButton3[this.state.button3counter]} alt="Values 1 and 2"/>
                         </div> }
                     </div>
                 </div>
