@@ -34,3 +34,13 @@
 .rotate_180 {
   transform: rotate(180deg)
 }
+
+.sprint {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}

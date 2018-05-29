@@ -11,7 +11,7 @@ class App extends Component {
           <h2>Welcome to React!</h2>
         </div>
 
-        <div id="sprints-div">
+        <div id="sprints-div" className="sprint">
           <h1>Sprint 1</h1>
           <div id="Agile-div">
             <h1>Product Owner</h1>
@@ -39,7 +39,7 @@ class App extends Component {
           </div>
 
           <h1>Sprint 2</h1>
-          <div id="scrum-div">
+          <div id="scrum-div" className="sprint">
             <h1>Sprint review</h1>
             <img src={require("./img/SprintReview.jpeg")}/>
             <h1>Sprint Retro</h1>
@@ -51,7 +51,7 @@ class App extends Component {
           </div>
 
           <h1>Sprint 3</h1>
-          <div id="sprintbacklog-div">
+          <div id="sprintbacklog-div" className="sprint">
             <h1>Quality</h1>
             <img src={require("./img/Quality.jpg")}/>
             <h1>Bugs</h1>
@@ -59,7 +59,7 @@ class App extends Component {
             <h1>File handling</h1>
             <img src={require("./img/FileHandling.jpeg")}/>
             <h1>Scrum Task</h1>
-            <img src={require("./img/Scrum-Task.jpg")} height="500" width="600"/>
+            <img src={require("./img/Scrum-Task.jpg")}/>
           </div>
         </div>
       </div>
