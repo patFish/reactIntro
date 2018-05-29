@@ -67,7 +67,8 @@ class App extends Component {
             <h1>Communicate work: assess progress</h1>
             <img src={require("./img/Scrum-Task.jpg")}/>
             <h1>Communicate work: plan and track</h1>
-            <img src={require("./img/Scrum-Task.jpg")}/>
+            <img src={require("./img/VelocityChart.jpeg")}/>
+            <img src={require("./img/StoryBoard.jpeg")}/>
             <h1>Communicate work: PB</h1>
             <img src={require("./img/Scrum-Task.jpg")}/>
           </div>
