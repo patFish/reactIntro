@@ -53,7 +53,7 @@ class App extends Component {
           <h1>Sprint 3</h1>
           <div id="sprintbacklog-div">
             <h1>Quality</h1>
-            <img src={require("./img/Bugs.jpeg")}/>
+            <img src={require("./img/Quality.jpg")}/>
             <h1>Bugs</h1>
             <img src={require("./img/Bugs.jpeg")}/>
             <h1>File handling</h1>
