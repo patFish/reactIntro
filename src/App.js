@@ -72,11 +72,11 @@ class App extends Component {
                     <h2>Welcome to React </h2>
                     <div className="container">
                         <div className="row">
-                            <div className="col-6">
+                            <div className="col-2">
                                 <input type="button" className="btn btn-danger" onClick={this.onButtonClick1} value="Sprint 1"/>
                             </div>
-                            <div className="col-6">
-                                <input type="button" className="btn btn-danger" onClick={this.onButtonClick2} value="Sprint 2"/>
+                            <div className="col-2">
+                                <input type="button" className="btn btn-success" onClick={this.onButtonClick2} value="Sprint 2"/>
                             </div>
                         </div>
                     </div>
@@ -85,13 +85,13 @@ class App extends Component {
                 <div className="container">
                     <div className="row">
                         {!this.state.isHiddenitem1 &&
-                        <div className="col-6">
+                        <div>
                             {/*<input type="button" className="btn btn-primary" onClick={this.onButtonClick1} value="Sprint 1"/>*/}
                             <h3><br/><br/><br/><br/>{this.state.headingButton1[this.state.button1counter]}</h3>
                             <img width={this.state.imageWidth} src={this.state.itemsButton1[this.state.button1counter]} alt="Values 1 and 2"/>
                         </div>}
                         {!this.state.isHiddenitem2 &&
-                        <div className="col-6">
+                        <div>
                             {/*<input type="button" className="btn btn-primary" onClick={this.onButtonClick2} value="Sprint 2"/>*/}
                             <h3><br/><br/><br/><br/>{this.state.headingButton2[this.state.button2counter]}</h3>
                             <img width={this.state.imageWidth} src={this.state.itemsButton2[this.state.button2counter]} alt="Values 1 and 2"/>
