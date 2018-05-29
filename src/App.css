@@ -48,3 +48,23 @@ img {
   width: 800px;
   height: 600px;
 }
+
+#sprint1 {
+  background-color: red;
+}
+
+#sprint2 {
+  background-color: yellow;
+}
+
+#sprint3 {
+  background-color: aqua;
+}
+
+#sprint4 {
+  background-color: greenyellow;
+}
+
+#sprint5 {
+  background-color: rgb(211, 14, 113);
+}

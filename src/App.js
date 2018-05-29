@@ -11,6 +11,7 @@ class App extends Component {
           <h2>Welcome to React!</h2>
         </div>
 
+        <div id="sprint1">
         <div id="sprints-div" className="sprint">
           <h1>Sprint 1</h1>
           <div id="Agile-div">
@@ -43,7 +44,9 @@ class App extends Component {
             <h1>12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.</h1>
             <img src={require("./img/principle12.jpeg")}/>
           </div>
+          </div>
 
+          <div id="sprint2">
           <h1>Sprint 2</h1>
           <div id="scrum-div" className="sprint">
             <h1>Sprint</h1>
@@ -63,7 +66,9 @@ class App extends Component {
             <h1>Increment</h1>
             <img src={require("./img/SCRUM_Artifact_Increment.jpeg")}/>
           </div>
+          </div>
 
+          <div id="sprint3">
           <h1>Sprint 3</h1>
           <div id="sprintbacklog-div" className="sprint">
             <h1>Product Backlog Item</h1>
@@ -84,7 +89,9 @@ class App extends Component {
             <h1>Scrum Task</h1>
             <img src={require("./img/Scrum-Task.jpg")}/>
           </div>
+          </div>
 
+          <div id="sprint4">
           <h1>Sprint 4</h1>
           <div id="workload-div" className="sprint">
             <h1>Communicate work: assess progress</h1>
@@ -101,6 +108,7 @@ class App extends Component {
             <h1>Branching</h1>
             <img src={require("./img/Day2/Sprint3/Agile.png")}/>
 
+          </div>
           </div>
         </div>
       </div>
