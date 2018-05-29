@@ -12,6 +12,7 @@ class App extends Component {
         </div>
 
         <div id="sprints-div">
+          <h1>Sprint 1</h1>
           <div id="Agile-div">
             <h1>Product Owner</h1>
             <img src={require("./img/productOwner.jpeg")}/>
@@ -37,6 +38,7 @@ class App extends Component {
             <img src={require("./img/principle12.jpeg")}/>
           </div>
 
+          <h1>Sprint 2</h1>
           <div id="scrum-div">
             <h1>Sprint review</h1>
             <img src={require("./img/SprintReview.jpeg")}/>
@@ -46,6 +48,18 @@ class App extends Component {
             <img src={require("./img/Sprint_Backlog.jpg")}/>
             <h1>Increment</h1>
             <img src={require("./img/SCRUM_Artifact_Increment.jpeg")}/>
+          </div>
+
+          <h1>Sprint 3</h1>
+          <div id="sprintbacklog-div">
+            <h1>Quality</h1>
+            <img src={require("./img/Bugs.jpeg")}/>
+            <h1>Bugs</h1>
+            <img src={require("./img/Bugs.jpeg")}/>
+            <h1>File handling</h1>
+            <img src={require("./img/Bugs.jpeg")}/>
+            <h1>tasks</h1>
+            <img src={require("./img/Bugs.jpeg")}/>
           </div>
         </div>
       </div>
