@@ -141,6 +141,8 @@ class App extends Component {
             <img src={require("./img/Sprint6/Documentation.jpeg")}/>
             <h1>Architecture has no Value</h1> 
             <img src={require("./img/Sprint6/ArchitectureNoValue.jpeg")}/>
+            <h1>Big Design Up Front</h1> 
+            <img src={require("./img/Sprint6/BDUF.png")}/> 
             <h1>ENTER Heading</h1> 
             <img src={require("./img/Sprint6/placeholder.png")}/> 
             
