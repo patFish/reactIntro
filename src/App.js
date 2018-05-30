@@ -145,8 +145,6 @@ class App extends Component {
             <img src={require("./img/Sprint6/Best_Unit_Test_Practices.jpeg")}/> 
             <h1>Big Design Up Front</h1> 
             <img src={require("./img/Sprint6/BDUF.png")}/> 
-            <h1>ENTER Heading</h1> 
-            <img src={require("./img/Sprint6/placeholder.png")}/> 
             
           </div>
         </div>
