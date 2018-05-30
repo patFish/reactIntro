@@ -26,13 +26,13 @@
 .rotate_plus_90 {
   transform: rotate(90deg);
   width: auto;
-  height: 600px;
+  height: 800px;
 }
 
 .rotate_minus_90 {
   transform: rotate(-90deg);
   width: auto;
-  height: 600px;
+  height: 800px;
 }
 
 .rotate_180 {
