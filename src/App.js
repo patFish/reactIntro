@@ -133,8 +133,7 @@ class App extends Component {
 
         <div id="sprint6">
           <h1>Sprint 6</h1>
-          <div id="merging-div" className="sprint">
-            
+          <div id="testing-architecture-div" className="sprint">
             <h1>Types of Testing</h1> 
             <img src={require("./img/Sprint6/TypesOfTesting.jpeg")}/>
             <h1>Documentation</h1> 
@@ -152,6 +151,13 @@ class App extends Component {
           </div>
         </div>
 
+        <div id="sprint7">
+        <h1>Sprint 7</h1>
+          <div id="testing-architecture-div" className="sprint">
+            <h1>Types of Testing</h1> 
+            <img src={require("./img/Sprint7/placeholder.png")}/>
+          </div>
+        </div>
         </div>
       
     );
