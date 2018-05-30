@@ -147,8 +147,6 @@ class App extends Component {
             <img src={require("./img/Sprint6/BDUF.png")}/> 
             <h1>FIT</h1> 
             <img src={require("./img/Sprint6/FIT.jpg")}/> 
-            <h1>Documentation</h1> 
-            <img src={require("./img/Sprint6/Documentation.jpeg")}/> 
             <h1>Quality Code</h1> 
             <img src={require("./img/Quality_Code.jpg")}/> 
           </div>
