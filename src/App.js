@@ -135,12 +135,12 @@ class App extends Component {
           <h1>Sprint 6</h1>
           <div id="merging-div" className="sprint">
             
-            <h1>ENTER Heading</h1> 
+            <h1>Types of Testing</h1> 
             <img src={require("./img/Sprint6/TypesOfTesting.jpeg")}/>
-            <h1>ENTER Heading</h1> 
-            <img src={require("./img/Sprint6/placeholder.png")}/>
-            <h1>ENTER Heading</h1> 
-            <img src={require("./img/Sprint6/placeholder.png")}/>
+            <h1>Documentation</h1> 
+            <img src={require("./img/Sprint6/Documentation.jpeg")}/>
+            <h1>Architecture has no Value</h1> 
+            <img src={require("./img/Sprint6/ArchitectureNoValue.jpeg")}/>
             <h1>ENTER Heading</h1> 
             <img src={require("./img/Sprint6/placeholder.png")}/> 
             
