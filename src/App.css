@@ -25,14 +25,14 @@
 
 .rotate_plus_90 {
   transform: rotate(90deg);
+  width: auto;
   height: 800px;
-  width: 600px;
 }
 
 .rotate_minus_90 {
   transform: rotate(-90deg);
+  width: auto;
   height: 800px;
-  width: 600px;
 }
 
 .rotate_180 {
@@ -46,5 +46,25 @@
 
 img {
   width: 800px;
-  height: 600px;
+  height: auto;
+}
+
+#sprint1 {
+  background-color: red;
+}
+
+#sprint2 {
+  background-color: yellow;
+}
+
+#sprint3 {
+  background-color: aqua;
+}
+
+#sprint4 {
+  background-color: greenyellow;
+}
+
+#sprint5 {
+  background-color: rgb(211, 14, 113);
 }
